@@ -746,7 +746,7 @@ public:
 	}
 	void GET_MAX(string path, int i) {
 		this->GET_MAX_D(path, i);
-		//this->GET_MAX_A00(path, i);
+		this->GET_MAX_A00(path, i);
 		this->GET_MARK_A01(path, i);
 		this->GET_MARK_B00(path, i);
 		this->GET_MARK_C00(path, i);
